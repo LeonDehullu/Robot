@@ -25,7 +25,7 @@ function preload() {
     soundFormats('mp3');
     laserSound = loadSound('data/LaserSound.mp3');
     winningSound = loadSound('data/SuperMarioWorld.mp3');
-    backgroundImg = loadImage('data/mars_surface.jpg');
+    backgroundImg = loadImage('data/FotoGolfGreen.jpg');
     // load the highscore data from HighScores.csv in highScoreData
     highScoreData = loadTable('data/HighScores.csv', 'csv', 'header');
     scoreTable = new highScoreTable(width / 2, 500, 1, highScoreData);
