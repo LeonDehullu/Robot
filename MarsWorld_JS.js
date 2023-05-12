@@ -21,7 +21,7 @@ function preload() {
   soundFormats('mp3');
   laserSound = loadSound('data/LaserSound.mp3');
   winningSound = loadSound('data/SuperMarioWorld.mp3');
-  backgroundImg = loadImage('data/mars_surface.jpg');
+  backgroundImg = loadImage('data/FotoGolfGreen.jpg');
 
 
 }
